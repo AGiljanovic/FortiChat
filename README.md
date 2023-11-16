@@ -435,12 +435,6 @@ MONGO_DB_NAME = ""
 - `JWT_SECRET`: A secret key for signing JWT tokens.
 - `MONGO_DB_NAME`: Name of your MongoDB database.
 
-There is also one .env on the front end, which was meant for deployment, which was abandoned, however it still has to be set up.
-```
-REACT_APP_API_BASE_URL=http://localhost:3001
-```
-- If you plan on deploying this, this will come in handy, so you can switch it out easily.
-
 ## Step 6: Run the Application 🚩
 With the setup complete, you can now run the application:
 - In the backend directory, run `node index.js` to start the backend server.
